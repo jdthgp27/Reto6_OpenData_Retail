@@ -6,6 +6,7 @@ Proyecto de **Business Intelligence** que enriquece un dataset comercial de vent
 [![pandas](https://img.shields.io/badge/pandas-3.0.5-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Completado-success.svg)]()
+Python  open-data   world-bank   business-intelligence   data-enrichment   pandas   matplotlib   portfolio
 
 ---
 
