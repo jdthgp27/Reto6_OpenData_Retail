@@ -120,16 +120,19 @@ python 02_limpieza_principal.py
 python 03_limpieza_open_data.py
 python 04_integracion.py
 python 05c_analisis_comparativo_final.py
-📸 Visualizaciones destacadas
-Ventas nominales vs ajustadas por inflación
-[Ventas ajustadas](salidas/figuras/09_ventas_nominales_vs_ajustadas.png)
+## 📸 Visualizaciones destacadas
 
+### Ventas nominales vs ajustadas por inflación
 
-Comparativa trimestral 2010 vs 2011
-[Ventas ajustadas](salidas/figuras/10_comparativa_trimestral_2010_2011.png)
+![Ventas ajustadas](https://raw.githubusercontent.com/jdthgp27/Reto6_OpenData_Retail/main/salidas/figuras/09_ventas_nominales_vs_ajustadas.png)
 
-Ratios económicos anuales
-[Ventas ajustadas](salidas/figuras/11_ratios_economicos.png)
+### Comparativa trimestral 2010 vs 2011
+
+![Comparativa trimestral](https://raw.githubusercontent.com/jdthgp27/Reto6_OpenData_Retail/main/salidas/figuras/10_comparativa_trimestral_2010_2011.png)
+
+### Ratios económicos anuales
+
+![Ratios económicos](https://raw.githubusercontent.com/jdthgp27/Reto6_OpenData_Retail/main/salidas/figuras/11_ratios_economicos.png)
 
 💡 Conclusiones
 El Open Data ha permitido:
