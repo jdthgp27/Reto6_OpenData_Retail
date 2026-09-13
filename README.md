@@ -64,29 +64,39 @@ Enriquecer un dataset comercial con datos abiertos y realizar un **análisis com
 ---
 
 ## 📁 Estructura del proyecto
+
+```
 Reto6_OpenData_Retail/
+│
 ├── datos/
-│ ├── principal/ (Online Retail II limpio)
-│ ├── open_data/ (Indicadores + población)
-│ └── enriquecido/ (Dataset final)
-├── scripts/ (Scripts Python)
-│ ├── 02_limpieza_principal.py
-│ ├── 03_limpieza_open_data.py
-│ ├── 04_integracion.py
-│ └── 05c_analisis_comparativo_final.py
+│   ├── principal/                    # Online Retail II limpio
+│   ├── open_data/                    # Indicadores + población
+│   │   └── raw/                      # Datos originales descargados
+│   └── enriquecido/                  # Dataset final enriquecido
+│
+├── scripts/                          # Scripts Python
+│   ├── 02_limpieza_principal.py
+│   ├── 03_limpieza_open_data.py
+│   ├── 04_integracion.py
+│   └── 05c_analisis_comparativo_final.py
+│
 ├── salidas/
-│ ├── figuras/ (12 visualizaciones)
-│ └── resultados/ (CSVs de resultados)
-├── docs/
-│ ├── Informe_Analisis_Reto6_JuditGiravent.pdf
-│ ├── Visualizaciones_Reto6_JuditGiravent.pdf
-│ ├── Conclusiones_Recomendaciones_Reto6_JuditGiravent.pdf
-│ └── Presentacion_Reto6_JuditGiravent.pptx
+│   ├── figuras/                      # 12 visualizaciones PNG
+│   └── resultados/                   # CSVs de resultados
+│
+├── docs/                             # Entregables del reto
+│   ├── Informe_Analisis_Reto6_JuditGiravent.pdf
+│   ├── Visualizaciones_Reto6_JuditGiravent.pdf
+│   ├── Conclusiones_Recomendaciones_Reto6_JuditGiravent.pdf
+│   └── Presentacion_Reto6_JuditGiravent.pptx
+│
+├── .gitignore
+├── LICENSE
 └── README.md
+```
 
-text
 
----
+
 
 ## 🚀 Cómo reproducir
 
@@ -112,13 +122,14 @@ python 04_integracion.py
 python 05c_analisis_comparativo_final.py
 📸 Visualizaciones destacadas
 Ventas nominales vs ajustadas por inflación
-https://salidas/figuras/09_ventas_nominales_vs_ajustadas.png
+[Ventas ajustadas](salidas/figuras/09_ventas_nominales_vs_ajustadas.png)
+
 
 Comparativa trimestral 2010 vs 2011
-https://salidas/figuras/10_comparativa_trimestral_2010_2011.png
+[Ventas ajustadas](salidas/figuras/10_comparativa_trimestral_2010_2011.png)
 
 Ratios económicos anuales
-https://salidas/figuras/11_ratios_economicos.png
+[Ventas ajustadas](salidas/figuras/11_ratios_economicos.png)
 
 💡 Conclusiones
 El Open Data ha permitido:
